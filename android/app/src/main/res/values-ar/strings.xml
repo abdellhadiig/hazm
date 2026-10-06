@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HAZM</string>
+    <string name="accessibility_service_label">HAZM</string>
+    <string name="accessibility_service_description">يحجب HAZM التطبيقات المشتِّتة أثناء جلسات التركيز فقط. يتحقق من التطبيق الظاهر على الشاشة ليقرر حجبه، ثم يغطيه بشاشة القفل ويعود إلى الشاشة الرئيسية. لا يقرأ محتوى الشاشة ولا يحفظه ولا يرسله. المكالمات والرسائل والمنبّهات والإعدادات وإلغاء التثبيت لا تُحجب أبداً.</string>
+</resources>

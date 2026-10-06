@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="android:statusBarColor">@color/hazm_background</item>
+        <item name="android:navigationBarColor">@color/hazm_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@color/hazm_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/hazm_background</item>
+    </style>
+
+    <style name="HazmLock" />
+
+    <style name="HazmLock.Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="HazmLock.Eyebrow" parent="HazmLock.Text">
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:letterSpacing">0.22</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/hazm_brand</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="HazmLock.Headline" parent="HazmLock.Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">112dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:fontFeatureSettings">tnum</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/hazm_text</item>
+        <item name="android:textSize">84sp</item>
+    </style>
+
+    <style name="HazmLock.Caption" parent="HazmLock.Text">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/hazm_brand</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="HazmLock.Message" parent="HazmLock.Text">
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:lineSpacingMultiplier">1.35</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:maxWidth">300dp</item>
+        <item name="android:textColor">@color/hazm_text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="HazmLock.Primary" parent="HazmLock.Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:background">@drawable/hazm_lock_primary</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="HazmLock.Secondary" parent="HazmLock.Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:background">@drawable/hazm_lock_secondary</item>
+        <item name="android:letterSpacing">0.18</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/hazm_text_muted</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+</resources>

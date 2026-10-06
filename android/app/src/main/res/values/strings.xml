@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HAZM</string>
+    <string name="accessibility_service_label">HAZM</string>
+    <string name="accessibility_service_description">Blocks distracting apps only while a focus session you started in HAZM is running. It checks which app is on screen to decide whether to block it, then covers that app with the HAZM lock screen and returns to the home screen. It never reads, saves or sends what is on your screen. Calls, messages, alarms, Settings and uninstalling are never blocked.</string>
+</resources>

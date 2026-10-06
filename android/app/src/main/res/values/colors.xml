@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hazm_background">#FF121212</color>
+    <color name="hazm_icon_background">#FF121212</color>
+    <color name="hazm_brand">#FFF96B06</color>
+    <color name="hazm_shackle">#FFF1F5F9</color>
+    <color name="hazm_curtain">#F70D0D0D</color>
+    <color name="hazm_track">#FF2A2A2A</color>
+    <color name="hazm_text">#FFF1F5F9</color>
+    <color name="hazm_text_secondary">#FF94A3B8</color>
+    <color name="hazm_text_muted">#FF64748B</color>
+    <color name="hazm_press_dark">#33000000</color>
+    <color name="hazm_press_light">#1FFFFFFF</color>
+</resources>
